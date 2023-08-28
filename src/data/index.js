@@ -25,7 +25,7 @@ export const cardsData = [
 
 export const ordersData = [
   {
-    name: "Skatebnoard",
+    name: "Skateboard",
     type: "Illustration",
     items: 58,
     change: 290,
@@ -65,7 +65,7 @@ let todayStr = moment().format("YYYY-MM-DD")  // YYYY-MM-DD of today
 export const INITIAL_EVENTS = [
   {
     id: createEventId(),
-    title: 'Lunch Pary',
+    title: 'Lunch Party',
     start: todayStr + 'T09:00:00',
 
   },
